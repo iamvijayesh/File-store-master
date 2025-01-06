@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "23805011"))
 API_HASH = environ.get("API_HASH", "1f4d00726c15819ec862d4154a960e06")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7644353957:AAElGXktN3wdYIhiRxGU8kcSUOipj3bClw8")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7668859200:AAEZY6ZIRIGL5DoEAVnz7QwCPZMujnhdDtA")
 
 PICS = (environ.get('PICS', 'https://envs.sh/odj.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7744540201').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "filesavetestbot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "MBAaspirantsbot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -39,7 +39,7 @@ DB_URI = environ.get("DB_URI", "mongodb+srv://vijayeshvishal:chjIUPCucc4dl82M@cl
 DB_NAME = environ.get("DB_NAME", "tokentest")
 
 #force subscribe
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002444140962').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002483916725').split()]
 
 
 # Auto Delete Information
@@ -50,7 +50,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002385681232"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002306245178"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
