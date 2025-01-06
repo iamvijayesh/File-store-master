@@ -39,7 +39,7 @@ DB_URI = environ.get("DB_URI", "mongodb+srv://vijayeshvishal:chjIUPCucc4dl82M@cl
 DB_NAME = environ.get("DB_NAME", "tokentest")
 
 #force subscribe
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002483916725').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002444140962').split()]
 
 
 # Auto Delete Information
