@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "23805011"))
-API_HASH = environ.get("API_HASH", "1f4d00726c15819ec862d4154a960e06")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7668859200:AAEZY6ZIRIGL5DoEAVnz7QwCPZMujnhdDtA")
+API_ID = int(environ.get("API_ID", "29292134"))
+API_HASH = environ.get("API_HASH", "de07f7315d14befd6d8d434b29dfcea7")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7744105114:AAEeEoIlc7getkl9Z7K18zGhJAfoB82g46E")
 
 PICS = (environ.get('PICS', 'https://envs.sh/odj.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7744540201').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "MBAaspirantsbot") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7613080889').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "forwardmbabot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -36,7 +36,7 @@ CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://vijayeshvishal:chjIUPCucc4dl82M@cluster0.kaduh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "tokentest")
+DB_NAME = environ.get("DB_NAME", "forwardbot")
 
 #force subscribe
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002483916725').split()]
